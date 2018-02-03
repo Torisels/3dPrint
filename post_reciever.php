@@ -1,7 +1,8 @@
 <?php
 require_once "helpers.php";
 require_once "server/config.php";
-if(isset($_POST['data'])&&isset($_POST['key']))
+
+ if(isset($_POST['data'])&&isset($_POST['key']))
 {
     if($_POST['key']===API_KEY)
     {
